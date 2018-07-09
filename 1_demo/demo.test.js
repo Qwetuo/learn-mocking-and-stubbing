@@ -1,3 +1,12 @@
+// mock Implementation example
+// const myMock =jest.fn()
+// myMock.mockImplementation(
+//   () => "anything"
+// )
+
+// have to read the file's module.exports to see how to mock/stub
+
+
 describe("jest.fn() examples", () => {
   test("how to create a mock and how to assert on it", () => {
     const myMock = jest.fn();

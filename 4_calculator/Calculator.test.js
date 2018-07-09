@@ -1,5 +1,6 @@
 const Calculator = require("./Calculator");
 
+
 test("typical unit tests for add", () => {
   const calculator = new Calculator({});
   calculator.add(5).add(10);
